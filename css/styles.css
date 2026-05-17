@@ -1,0 +1,324 @@
+/* CSS Reset */
+body, header, nav, main, footer, img, h1, h3, ul, aside, figure, figcaption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+}
+
+/* Style Rules for Body and Images */
+body {
+    background-color:linen;
+}
+
+img {
+    max-width: 100%;
+    display:block;
+}
+
+/* Style Rules for Navigation */
+nav {
+    background-color:darkolivegreen;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+   display: inline-block;
+   font-size: 1.5em;
+   font-family: Verdana, Arial, sans-serif;
+   font-weight: bold;
+}
+
+nav li a {
+    display: block;
+    color: linen;
+    padding: 1.5em 2em;
+    text-decoration: none;
+}
+
+/* Style Rules for Main Content */
+main {
+    padding: 2%;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+main p {
+    font-size: 1.25em;
+}
+
+main h3 {
+    padding-top: 2%;
+}
+
+/* Style Rules for Main Content: Grid */
+aside {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    color:darkolivegreen;
+}
+
+figure {
+    border: 4px solid linen;
+    box-shadow: 6px 6px 10px rgb(248, 201, 201);
+    max-width: 600px;
+    margin: 2% auto;
+}
+
+figcaption {
+    padding: 2%;
+    border-top: 4px solid linen;
+    font-size: 1.3em;
+    text-align: center;
+    color: linen;
+    background-color: rgba(219, 107, 150, 0.3); 
+}
+
+/* Style Rules for Class and Id Selectors */
+
+.lv{
+color: rgb(52, 27, 36); 
+}
+
+.get {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    color:darkolivegreen;
+}
+
+.difference {
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(52, 27, 36);
+    background-color:white;
+    border-radius: 50px;
+    padding: 2%;
+    width: 50%;
+    margin:0 auto;
+    opacity: 0.8; 
+}
+
+.link {
+    color:mediumvioletred;
+    text-decoration: none;
+}
+
+.tel-link {
+    background-color:white;
+    border-radius: 50px;
+    padding: 2%;
+    width: 80%;
+    margin:0 auto;
+    opacity: 0.8;
+}
+
+.tel-link a {
+    color:rgba(219, 107, 150, 0.8);
+    text-decoration: none;
+}
+
+#goal {
+    text-align: center;
+    line-height: 2em;
+    font-size: 1.25em;
+    color: rgb(52, 27, 36);
+    padding: 1% 0%;
+}
+
+#help {
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: bold;
+    color: rgb(52, 27, 36);
+    padding: 1% 1%;
+}
+
+#contact, #form h2 {
+    text-align: center;
+}
+
+/* Style Rules for Form */
+fieldset {
+    margin-bottom: 2%;
+    background-color:rgb(242, 226, 220);
+    text-align: center;
+    border: none;
+    border-radius: 85%;
+}
+
+fieldset label {
+   font:Verdana, Arial, sans-serif;
+   color: rgb(52, 27, 36);
+   padding: .4%; 
+   font-size: 1.15em;
+}
+
+input, textarea {
+    margin-bottom: 2%;
+}
+
+fieldset legend {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: rgb(52, 27, 36);
+}
+
+label {
+    display: block;
+    padding-top: 2%;
+    color:rgb(52, 27, 36);
+}
+
+#form h2 {
+    color: rgb(210, 128, 147);
+}
+
+form #submit {
+    margin: 0 auto;
+    display: block;
+    padding: 2%;
+    background-color:lightpink;
+    color:white;
+    font-size: 1.25em;
+    border-radius: 10px;
+}
+
+/* Style Rules for Footer */
+footer {
+    text-align: center;
+    font-size: 1.00em;
+    background-color: rgba(219, 107, 150, 0.3); 
+    color: white;
+    padding: 1.5em 2em;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.social img {
+    display: inline-block;
+    padding: 1%;
+    max-width: 40px;
+}
+
+
+/* Style Rules for Banner */
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bar {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: block;
+  color: linen;
+  padding: 1.5em 2em;
+  padding-left: 29.3em;
+  padding-right: 10.5em;
+  text-decoration: none;
+  background-color: darkolivegreen;
+  opacity: .5;
+}
+
+.round{
+  width: 148px;
+  position: absolute;
+  top: 0px;
+  left: 280px; 
+}
+
+/* Style Rules for Header */
+header h1 {
+  font-family: Times New Roman, serif;
+  font-size: 5.5em;
+  position: absolute;
+  top: 190px;
+  right: -600px;
+  display: block;
+  color: linen;
+  padding: 1.5em 2em;
+  padding-left: 32.46em;
+  padding-right: 10.5em;
+  opacity: 0.8;
+}
+
+header h3 {
+  font-family: Times New Roman, serif;
+  position: absolute;
+  top: 515px;
+  right: 320px;
+  display: block;
+  color: linen;
+  padding: 1.5em 2em;
+  padding-left: 32.46em;
+  padding-right: 10.5em;
+  text-decoration: none;
+  opacity: .5;
+}
+
+/* Style Rules for Table */
+table {
+    margin: 0 auto;
+    padding: 1%;
+    border-spacing: 15px 20px;  
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 1%;
+}
+
+th, td {
+    padding: 0%;
+}
+
+th { 
+    background-color: linen;
+    font-size: 1.15em;
+    padding-left: 2.46em;
+    padding-right: 4.46em;
+}
+
+.foster {
+    background-color:rgb(226, 206, 212);
+    font-size: 1.3em;
+    text-align: center;
+    line-height: 2em;
+    color: rgb(58, 8, 20);
+    padding: 1% 5%;
+}
+
+.volunteer {
+    background-color:rgb(242, 226, 220);
+    font-size: 1.3em;
+    text-align: center;
+    line-height: 2em;
+    color: rgb(58, 8, 20);
+    padding: 1% 5%;
+}
+
+.adopt {
+    background-color:rgb(217, 220, 207);
+    font-size: 1.3em;
+    text-align: center;
+    line-height: 2em;
+    color: rgb(58, 8, 20);
+    padding: 1% 5%;
+}
